@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BE7AE466-7EBE-3998-AF16-DFED1C9346F4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>RTXGI-D3D12</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RTXGI-D3D12.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RTXGI-D3D12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RTXGI-D3D12.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RTXGI-D3D12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RTXGI-D3D12.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RTXGI-D3D12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RTXGI-D3D12.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RTXGI-D3D12</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Common.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Defines.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Math.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Types.h" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\src\Math.cpp" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\DDGIConstants.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolume.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolumeDescGPU.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\gfx\DDGIVolume_D3D12.h" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\src\ddgi\DDGIVolume.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\src\ddgi\gfx\DDGIVolume_D3D12.cpp" />
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\Common.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\Platform.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\Common.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeCommon.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeDataCommon.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeIndexing.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeOctahedral.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeRayCommon.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\Irradiance.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeBlendingCS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeBorderUpdateCS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeClassificationCS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeRelocationCS.hlsl">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\ZERO_CHECK.vcxproj">
+      <Project>{2B3CBA78-4710-32E1-8EE8-C28A179A7D02}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
