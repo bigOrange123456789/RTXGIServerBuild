@@ -1,0 +1,10 @@
+^F:\GITHUBREPOSITORIES\REMOTEGISHARE\RTXGISERVER\BUILD\CMAKEFILES\83F03840486AFE6B44D2AE18EA273871\GENERATE.STAMP.RULE
+setlocal
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/RTXGI.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
