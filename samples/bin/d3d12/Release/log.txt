@@ -1,0 +1,17 @@
+Parsing command line...done.
+Loading config file...done.
+Creating a window...done.
+Initializing input system...done.
+Creating graphics device...done.
+Initializing texture system...done.
+Initializing the scene...done.
+Initializing graphics...
+	Loading and compiling shaders for DDGIVolume: "Scene Volume"...done.
+	Creating resources for DDGIVolume: "Scene Volume"...done.
+Initializing graphics...done.
+Initializing user interface...done.
+Startup complete in 8752.03 milliseconds
+Main loop...
+Shutting down and cleaning up...
+Shutdown complete in 356.747 milliseconds
+Done.
