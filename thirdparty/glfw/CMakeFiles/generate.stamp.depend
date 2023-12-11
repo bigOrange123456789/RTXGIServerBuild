@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+D:/mySoftware/cmake/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeDependentOption.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CheckLibraryExists.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/FindThreads.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
+F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/glfw/CMake/glfw3Config.cmake.in
+F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/glfw/CMakeLists.txt
