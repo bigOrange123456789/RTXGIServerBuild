@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Benchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Caches.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Configs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Correspondence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\ImageCapture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Inputs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Instrumentation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Scenes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Textures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\WebSocketClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Vulkan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\VulkanExtensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\DDGI.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\Composite_VK.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\DDGIVisualizations_VK.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\DDGI_VK.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\GBuffer_VK.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\PathTracing_VK.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\RTAO_VK.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\UI_VK.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\BC.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\BC4BC5.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\BC6HBC7.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexCompress.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexConvert.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexD3D12.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexDDS.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexHDR.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexImage.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexMipmaps.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexUtil.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexWIC.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\BCDirectCompute.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexCompressGPU.cpp">
+      <Filter>Source Files\Thirdparty\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files\Thirdparty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui.cpp">
+      <Filter>Source Files\Thirdparty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui_demo.cpp">
+      <Filter>Source Files\Thirdparty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui_draw.cpp">
+      <Filter>Source Files\Thirdparty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui_tables.cpp">
+      <Filter>Source Files\Thirdparty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\Thirdparty\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends\imgui_impl_vulkan.cpp">
+      <Filter>Source Files\Thirdparty\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Benchmark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Caches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Configs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Correspondence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\ImageCapture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Inputs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Instrumentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Scenes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Textures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\WebSocketClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Vulkan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\VulkanExtensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\Composite.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGI.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGIDefines.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGIShaderConfig.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGIVisualizations.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\GBuffer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\PathTracing.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\RTAO.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\Types.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\UI.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\Composite_VK.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGIVisualizations_VK.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGI_VK.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\GBuffer_VK.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\PathTracing_VK.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\RTAO_VK.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\UI_VK.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex\DirectXTex.h">
+      <Filter>Header Files\Thirdparty\DirectXTex</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex\DirectXTex.inl">
+      <Filter>Header Files\Thirdparty\DirectXTex</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexP.h">
+      <Filter>Header Files\Thirdparty\DirectXTex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\cornell.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\furnace.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\multi-cornell.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\sponza.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\tunnel.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\two-rooms.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Common.hlsl">
+      <Filter>Shaders\Include</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Descriptors.hlsl">
+      <Filter>Shaders\Include</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Lighting.hlsl">
+      <Filter>Shaders\Include</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Platform.hlsl">
+      <Filter>Shaders\Include</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Random.hlsl">
+      <Filter>Shaders\Include</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\RayTracing.hlsl">
+      <Filter>Shaders\Include</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\AHS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\CHS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\Composite.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\GBufferRGS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\IndirectCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\Miss.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\PathTraceRGS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\RTAOFilterCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\RTAOTraceRGS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\ProbeTraceRGS.hlsl">
+      <Filter>Shaders\DDGI</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\Descriptors.hlsl">
+      <Filter>Shaders\DDGI\Visualizations</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\ProbesCHS.hlsl">
+      <Filter>Shaders\DDGI\Visualizations</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\ProbesMiss.hlsl">
+      <Filter>Shaders\DDGI\Visualizations</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\ProbesRGS.hlsl">
+      <Filter>Shaders\DDGI\Visualizations</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\ProbesUpdateCS.hlsl">
+      <Filter>Shaders\DDGI\Visualizations</Filter>
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\VolumeTexturesCS.hlsl">
+      <Filter>Shaders\DDGI\Visualizations</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F9CFCA1F-FAEC-351A-A635-F4D5EE9E62D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9BD49C18-578D-382E-BF71-868ADF3A5BC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{93E50900-C1ED-38C6-B0F6-3585E3928EAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Thirdparty">
+      <UniqueIdentifier>{ED5DBB42-98AD-3FD8-BDBD-79187AC3F399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Thirdparty\DirectXTex">
+      <UniqueIdentifier>{D983A95F-4BCC-3E6F-B22E-FED5865DF844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{319C89CD-1640-39E6-AE87-3839C345D805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DDGI">
+      <UniqueIdentifier>{4329D328-10AE-3557-B3B0-9260CE14B19F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DDGI\Visualizations">
+      <UniqueIdentifier>{FA0ACAFC-9F51-397C-B727-50AA6AEAAAFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Include">
+      <UniqueIdentifier>{1EE2C793-6CE2-35DA-B5F6-151E1880FB22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5CA5309A-64D2-33C1-AD4D-2C4EFCEA5629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{6DC2ACCA-E98C-3EFD-94C7-2704313E1488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty">
+      <UniqueIdentifier>{3DABF53C-CBB1-3931-9E94-783169716F1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty\DirectXTex">
+      <UniqueIdentifier>{336A2E7B-D5D0-3D62-981C-96309DEB6B37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thirdparty\ImGui">
+      <UniqueIdentifier>{803B4BC5-ADD5-3EDA-8789-F1317BC3ABA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

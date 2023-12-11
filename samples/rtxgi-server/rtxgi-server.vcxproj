@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5F637D05-29EE-3CED-8C59-5237AA81A653}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>rtxgi-server</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\bin\d3d12\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rtxgi-server.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rtxgi-server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/config/cornell.ini</LocalDebuggerCommandArguments>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\bin\d3d12\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rtxgi-server.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rtxgi-server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/config/cornell.ini</LocalDebuggerCommandArguments>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\bin\d3d12\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">rtxgi-server.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">rtxgi-server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/config/cornell.ini</LocalDebuggerCommandArguments>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\bin\d3d12\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">rtxgi-server.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">rtxgi-server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/config/cornell.ini</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GFX_NAME_OBJECTS;GFX_PERF_MARKERS;RTXGI_DDGI_BINDLESS_RESOURCES=1;RTXGI_DDGI_BLEND_SHARED_MEMORY=1;RTXGI_DDGI_DEBUG_BORDER_COPY_INDEXING=0;RTXGI_DDGI_DEBUG_OCTAHEDRAL_INDEXING=0;API_D3D12;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GFX_NAME_OBJECTS;GFX_PERF_MARKERS;RTXGI_DDGI_BINDLESS_RESOURCES=1;RTXGI_DDGI_BLEND_SHARED_MEMORY=1;RTXGI_DDGI_DEBUG_BORDER_COPY_INDEXING=0;RTXGI_DDGI_DEBUG_OCTAHEDRAL_INDEXING=0;API_D3D12;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/dxc/bin/dxil.dll ../bin/d3d12/Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/dxc/bin/dxcompiler.dll ../bin/d3d12/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/docs/nvidia.jpg ../bin/d3d12/Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/docs/nvidia.jpg F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\rtxgi-sdk\lib\Debug\RTXGI-D3D12.lib;..\..\thirdparty\glfw\src\Debug\glfw3.lib;d3d11.lib;d3d12.lib;dxgi.lib;uv.lib;uv_a.lib;usockets.lib;zlib_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/lib;F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/Debug/rtxgi-server.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/bin/d3d12/Debug/rtxgi-server.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFX_NAME_OBJECTS;GFX_PERF_MARKERS;RTXGI_DDGI_BINDLESS_RESOURCES=1;RTXGI_DDGI_BLEND_SHARED_MEMORY=1;RTXGI_DDGI_DEBUG_BORDER_COPY_INDEXING=0;RTXGI_DDGI_DEBUG_OCTAHEDRAL_INDEXING=0;API_D3D12;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFX_NAME_OBJECTS;GFX_PERF_MARKERS;RTXGI_DDGI_BINDLESS_RESOURCES=1;RTXGI_DDGI_BLEND_SHARED_MEMORY=1;RTXGI_DDGI_DEBUG_BORDER_COPY_INDEXING=0;RTXGI_DDGI_DEBUG_OCTAHEDRAL_INDEXING=0;API_D3D12;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/dxc/bin/dxil.dll ../bin/d3d12/Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/dxc/bin/dxcompiler.dll ../bin/d3d12/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/docs/nvidia.jpg ../bin/d3d12/Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/docs/nvidia.jpg F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\rtxgi-sdk\lib\Release\RTXGI-D3D12.lib;..\..\thirdparty\glfw\src\Release\glfw3.lib;d3d11.lib;d3d12.lib;dxgi.lib;uv.lib;uv_a.lib;usockets.lib;zlib_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/lib;F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/Release/rtxgi-server.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/bin/d3d12/Release/rtxgi-server.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFX_NAME_OBJECTS;GFX_PERF_MARKERS;RTXGI_DDGI_BINDLESS_RESOURCES=1;RTXGI_DDGI_BLEND_SHARED_MEMORY=1;RTXGI_DDGI_DEBUG_BORDER_COPY_INDEXING=0;RTXGI_DDGI_DEBUG_OCTAHEDRAL_INDEXING=0;API_D3D12;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFX_NAME_OBJECTS;GFX_PERF_MARKERS;RTXGI_DDGI_BINDLESS_RESOURCES=1;RTXGI_DDGI_BLEND_SHARED_MEMORY=1;RTXGI_DDGI_DEBUG_BORDER_COPY_INDEXING=0;RTXGI_DDGI_DEBUG_OCTAHEDRAL_INDEXING=0;API_D3D12;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/dxc/bin/dxil.dll ../bin/d3d12/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/dxc/bin/dxcompiler.dll ../bin/d3d12/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/docs/nvidia.jpg ../bin/d3d12/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/docs/nvidia.jpg F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\rtxgi-sdk\lib\MinSizeRel\RTXGI-D3D12.lib;..\..\thirdparty\glfw\src\MinSizeRel\glfw3.lib;d3d11.lib;d3d12.lib;dxgi.lib;uv.lib;uv_a.lib;usockets.lib;zlib_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/lib;F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/MinSizeRel/rtxgi-server.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/bin/d3d12/MinSizeRel/rtxgi-server.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFX_NAME_OBJECTS;GFX_PERF_MARKERS;RTXGI_DDGI_BINDLESS_RESOURCES=1;RTXGI_DDGI_BLEND_SHARED_MEMORY=1;RTXGI_DDGI_DEBUG_BORDER_COPY_INDEXING=0;RTXGI_DDGI_DEBUG_OCTAHEDRAL_INDEXING=0;API_D3D12;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GFX_NAME_OBJECTS;GFX_PERF_MARKERS;RTXGI_DDGI_BINDLESS_RESOURCES=1;RTXGI_DDGI_BLEND_SHARED_MEMORY=1;RTXGI_DDGI_DEBUG_BORDER_COPY_INDEXING=0;RTXGI_DDGI_DEBUG_OCTAHEDRAL_INDEXING=0;API_D3D12;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtk;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\dxc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\stb;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\DirectXMath\Inc;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\glfw\include;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\libuv;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\zlib;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/dxc/bin/dxil.dll ../bin/d3d12/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/dxc/bin/dxcompiler.dll ../bin/d3d12/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/docs/nvidia.jpg ../bin/d3d12/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+D:\mySoftware\cmake\bin\cmake.exe -E copy_if_different F:/gitHubRepositories/RemoteGIShare/RTXGIServer/docs/nvidia.jpg F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\rtxgi-sdk\lib\RelWithDebInfo\RTXGI-D3D12.lib;..\..\thirdparty\glfw\src\RelWithDebInfo\glfw3.lib;d3d11.lib;d3d12.lib;dxgi.lib;uv.lib;uv_a.lib;usockets.lib;zlib_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/lib;F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/RelWithDebInfo/rtxgi-server.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/bin/d3d12/RelWithDebInfo/rtxgi-server.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\rtxgi-server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\rtxgi-server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\rtxgi-server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples/rtxgi-server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\.args;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\rtxgi-server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\cornell.ini">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\furnace.ini">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\multi-cornell.ini">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\sponza.ini">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\tunnel.ini">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\config\two-rooms.ini">
+    </None>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Benchmark.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Caches.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Common.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Configs.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Correspondence.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Geometry.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Graphics.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\ImageCapture.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Inputs.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Instrumentation.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Scenes.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Shaders.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Textures.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Window.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\base64.h" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Benchmark.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Caches.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Configs.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Correspondence.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Geometry.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\ImageCapture.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Inputs.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Instrumentation.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Scenes.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Shaders.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Textures.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\UI.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Window.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\base64.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\main.cpp" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\Direct3D12.h" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\Direct3D12.cpp" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\Composite.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGI.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGIDefines.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGIShaderConfig.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGIVisualizations.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\GBuffer.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\PathTracing.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\RTAO.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\Types.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\UI.h" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\DDGI.cpp" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\Composite_D3D12.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGIVisualizations_D3D12.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\DDGI_D3D12.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\GBuffer_D3D12.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\PathTracing_D3D12.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\RTAO_D3D12.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\graphics\UI_D3D12.h" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\Composite_D3D12.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\DDGIVisualizations_D3D12.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\DDGI_D3D12.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\GBuffer_D3D12.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\PathTracing_D3D12.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\RTAO_D3D12.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\graphics\UI_D3D12.cpp" />
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Common.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Descriptors.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Lighting.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Platform.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\Random.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\include\RayTracing.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\AHS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\CHS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\Composite.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\GBufferRGS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\IndirectCS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\Miss.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\PathTraceRGS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\RTAOFilterCS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\RTAOTraceRGS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\ProbeTraceRGS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\Descriptors.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\ProbesCHS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\ProbesMiss.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\ProbesRGS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\ProbesUpdateCS.hlsl">
+    </None>
+    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\shaders\ddgi\visualizations\VolumeTexturesCS.hlsl">
+    </None>
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex\DirectXTex.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\include\thirdparty\directxtex\DirectXTex.inl" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexP.h" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\BC.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\BC4BC5.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\BC6HBC7.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexCompress.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexConvert.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexD3D12.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexDDS.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexHDR.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexImage.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexMipmaps.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexUtil.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexWIC.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\BCDirectCompute.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\samples\rtxgi-server\src\thirdparty\directxtex\DirectXTexCompressGPU.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui_demo.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui_draw.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui_tables.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\imgui\backends\imgui_impl_dx12.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\ZERO_CHECK.vcxproj">
+      <Project>{2B3CBA78-4710-32E1-8EE8-C28A179A7D02}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\RTXGI-D3D12.vcxproj">
+      <Project>{BE7AE466-7EBE-3998-AF16-DFED1C9346F4}</Project>
+      <Name>RTXGI-D3D12</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\thirdparty\glfw\src\glfw.vcxproj">
+      <Project>{EDEF042E-6A00-3016-AB28-F20A6349BD77}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\thirdparty\tinygltf\tinygltf.vcxproj">
+      <Project>{6218BA3B-BD16-3172-8C3A-A7C3FFD6BDBC}</Project>
+      <Name>tinygltf</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
