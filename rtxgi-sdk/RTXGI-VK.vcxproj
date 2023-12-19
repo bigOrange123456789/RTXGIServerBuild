@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6D17E6B3-0136-35BB-B42F-8302321BE005}</ProjectGuid>
+    <ProjectGuid>{3E1AB64B-14C8-3640-90DC-CA6A465DA0CB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RTXGI-VK.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RTXGI-VK</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RTXGI-VK.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RTXGI-VK</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RTXGI-VK.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RTXGI-VK</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RTXGI-VK.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RTXGI-VK</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -132,10 +132,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -183,7 +183,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -201,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RTXGI_COORDINATE_SYSTEM=2;RTXGI_GFX_NAME_OBJECTS;RTXGI_DDGI_RESOURCE_MANAGEMENT=0;RTXGI_DDGI_USE_SHADER_CONFIG_FILE=0;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include;D:\mySoftware\VulkanSDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,11 +216,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\CMakeLists.txt">
+    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/rtxgi-sdk/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/CMakeFiles/generate.stamp
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023 -BF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/rtxgi-sdk/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -228,12 +228,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/rtxgi-sdk/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/CMakeFiles/generate.stamp
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023 -BF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/rtxgi-sdk/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,12 +241,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/rtxgi-sdk/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/CMakeFiles/generate.stamp
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023 -BF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/rtxgi-sdk/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -254,12 +254,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/rtxgi-sdk/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/CMakeFiles/generate.stamp
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023 -BF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/rtxgi-sdk/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -267,53 +267,53 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindPackageMessage.cmake;D:\mySoftware\cmake\share\cmake-3.26\Modules\FindVulkan.cmake;F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\FindSDKs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Common.h" />
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Defines.h" />
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Math.h" />
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Types.h" />
-    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\src\Math.cpp" />
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\DDGIConstants.h" />
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolume.h" />
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolumeDescGPU.h" />
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\gfx\DDGIVolume_VK.h" />
-    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\src\ddgi\DDGIVolume.cpp" />
-    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\src\ddgi\gfx\DDGIVolume_VK.cpp" />
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\Common.hlsl">
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\Common.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\Defines.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\Math.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\Types.h" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\src\Math.cpp" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\ddgi\DDGIConstants.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolume.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolumeDescGPU.h" />
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\ddgi\gfx\DDGIVolume_VK.h" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\src\ddgi\DDGIVolume.cpp" />
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\src\ddgi\gfx\DDGIVolume_VK.cpp" />
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\Common.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\Platform.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\Platform.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\Common.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\Common.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeCommon.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeCommon.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeDataCommon.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeDataCommon.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeIndexing.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeIndexing.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeOctahedral.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeOctahedral.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeRayCommon.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeRayCommon.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\Irradiance.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\Irradiance.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeBlendingCS.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\ProbeBlendingCS.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeBorderUpdateCS.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\ProbeBorderUpdateCS.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeClassificationCS.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\ProbeClassificationCS.hlsl">
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeRelocationCS.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\ProbeRelocationCS.hlsl">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\ZERO_CHECK.vcxproj">
-      <Project>{2B3CBA78-4710-32E1-8EE8-C28A179A7D02}</Project>
+    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\ZERO_CHECK.vcxproj">
+      <Project>{6F0122EB-3F82-38BD-B3D9-65E4CFB7B960}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

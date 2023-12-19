@@ -1,0 +1,5 @@
+﻿  Building Custom Rule F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/rtxgi-sdk/CMakeLists.txt
+  Math.cpp
+  DDGIVolume.cpp
+  DDGIVolume_D3D12.cpp
+  RTXGI-D3D12.vcxproj -> F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\lib\Debug\RTXGI-D3D12.lib

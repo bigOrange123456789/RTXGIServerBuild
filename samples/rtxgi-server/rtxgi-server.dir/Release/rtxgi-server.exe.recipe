@@ -2,9 +2,6 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\x64\Release\ZERO_CHECK</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
       <FullPath>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\bin\d3d12\Release\rtxgi-server.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

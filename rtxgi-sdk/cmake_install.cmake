@@ -1,4 +1,4 @@
-# Install script for directory: F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk
+# Install script for directory: F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/rtxgi-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/glfw
+# Install script for directory: F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/thirdparty/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/thirdparty/glfw/src/cmake_install.cmake")
+  include("F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/thirdparty/glfw/src/cmake_install.cmake")
 endif()
 

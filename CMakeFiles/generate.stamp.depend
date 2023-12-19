@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Platform/Windows.cmake
+D:/mySoftware/cmake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/CMakeLists.txt
+F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/CMakeFiles/3.26.3/CMakeCCompiler.cmake
+F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake
+F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/CMakeFiles/3.26.3/CMakeRCCompiler.cmake
+F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/CMakeFiles/3.26.3/CMakeSystem.cmake

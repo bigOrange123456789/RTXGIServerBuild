@@ -1,4 +1,4 @@
-# Install script for directory: F:/gitHubRepositories/RemoteGIShare/RTXGIServer
+# Install script for directory: F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/cmake_install.cmake")
-  include("F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/thirdparty/glfw/cmake_install.cmake")
-  include("F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/thirdparty/tinygltf/cmake_install.cmake")
-  include("F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/cmake_install.cmake")
+  include("F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/rtxgi-sdk/cmake_install.cmake")
+  include("F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/thirdparty/glfw/cmake_install.cmake")
+  include("F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/thirdparty/tinygltf/cmake_install.cmake")
+  include("F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/samples/cmake_install.cmake")
 
 endif()
 
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

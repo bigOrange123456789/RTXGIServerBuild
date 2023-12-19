@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\thirdparty\tinygltf\CMakeLists.txt" />
+    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\tinygltf\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

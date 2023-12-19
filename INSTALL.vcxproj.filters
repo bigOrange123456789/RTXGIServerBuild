@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\CMakeFiles\83f03840486afe6b44d2ae18ea273871\INSTALL_force.rule">
+    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\CMakeFiles\77b5b6ea9ddd88fd75bff71d898bb3fe\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{8E090A1A-CED3-3E92-B9A0-A7438440CE74}</UniqueIdentifier>
+      <UniqueIdentifier>{722F6245-F452-3216-960E-571976983627}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

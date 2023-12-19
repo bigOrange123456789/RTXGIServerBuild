@@ -1,116 +1,116 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\src\Math.cpp">
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\src\Math.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\src\ddgi\DDGIVolume.cpp">
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\src\ddgi\DDGIVolume.cpp">
       <Filter>Source Files\ddgi</Filter>
     </ClCompile>
-    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\src\ddgi\gfx\DDGIVolume_VK.cpp">
+    <ClCompile Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\src\ddgi\gfx\DDGIVolume_VK.cpp">
       <Filter>Source Files\ddgi\gfx</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Common.h">
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Defines.h">
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\Defines.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Math.h">
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\Math.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\Types.h">
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\Types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\DDGIConstants.h">
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\ddgi\DDGIConstants.h">
       <Filter>Header Files\rtxgi\ddgi</Filter>
     </ClInclude>
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolume.h">
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolume.h">
       <Filter>Header Files\rtxgi\ddgi</Filter>
     </ClInclude>
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolumeDescGPU.h">
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\ddgi\DDGIVolumeDescGPU.h">
       <Filter>Header Files\rtxgi\ddgi</Filter>
     </ClInclude>
-    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\include\rtxgi\ddgi\gfx\DDGIVolume_VK.h">
+    <ClInclude Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\include\rtxgi\ddgi\gfx\DDGIVolume_VK.h">
       <Filter>Header Files\rtxgi\ddgi\gfx</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\CMakeLists.txt" />
+    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\Common.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\Common.hlsl">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\Platform.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\Platform.hlsl">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\Common.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\Common.hlsl">
       <Filter>Shaders\ddgi\include</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeCommon.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeCommon.hlsl">
       <Filter>Shaders\ddgi\include</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeDataCommon.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeDataCommon.hlsl">
       <Filter>Shaders\ddgi\include</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeIndexing.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeIndexing.hlsl">
       <Filter>Shaders\ddgi\include</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeOctahedral.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeOctahedral.hlsl">
       <Filter>Shaders\ddgi\include</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\include\ProbeRayCommon.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\include\ProbeRayCommon.hlsl">
       <Filter>Shaders\ddgi\include</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\Irradiance.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\Irradiance.hlsl">
       <Filter>Shaders\ddgi</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeBlendingCS.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\ProbeBlendingCS.hlsl">
       <Filter>Shaders\ddgi</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeBorderUpdateCS.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\ProbeBorderUpdateCS.hlsl">
       <Filter>Shaders\ddgi</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeClassificationCS.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\ProbeClassificationCS.hlsl">
       <Filter>Shaders\ddgi</Filter>
     </None>
-    <None Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\rtxgi-sdk\shaders\ddgi\ProbeRelocationCS.hlsl">
+    <None Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\rtxgi-sdk\shaders\ddgi\ProbeRelocationCS.hlsl">
       <Filter>Shaders\ddgi</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{9BD49C18-578D-382E-BF71-868ADF3A5BC0}</UniqueIdentifier>
+      <UniqueIdentifier>{3156D596-CC64-3BCF-9C14-5E649A67198B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\rtxgi">
-      <UniqueIdentifier>{15B43547-CAA9-3730-97D0-AE53F3A00048}</UniqueIdentifier>
+      <UniqueIdentifier>{89851B81-0413-3F0C-8192-DD59DE1AF35A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\rtxgi\ddgi">
-      <UniqueIdentifier>{E6F18CFE-8B0D-325A-8142-BC44E6D86BCB}</UniqueIdentifier>
+      <UniqueIdentifier>{DB4CCA89-0587-339B-9A06-803BA9270459}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\rtxgi\ddgi\gfx">
-      <UniqueIdentifier>{4CB84C71-85C5-329E-919C-5F170F60B57F}</UniqueIdentifier>
+      <UniqueIdentifier>{14AE1FA0-0585-337A-94AB-A466A135CCB7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Shaders">
-      <UniqueIdentifier>{319C89CD-1640-39E6-AE87-3839C345D805}</UniqueIdentifier>
+      <UniqueIdentifier>{F2F2BB0C-1B36-34ED-99A8-543E0E0C98C2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Shaders\ddgi">
-      <UniqueIdentifier>{DF315C84-1F72-33D9-BAFC-D1F4773D1E3B}</UniqueIdentifier>
+      <UniqueIdentifier>{824604E3-1AA1-36A9-A0D8-CB13B391E13D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Shaders\ddgi\include">
-      <UniqueIdentifier>{4A4300C6-2AA3-33A3-8587-B5B43900CAD7}</UniqueIdentifier>
+      <UniqueIdentifier>{C9ECF04E-FD4D-3961-BB2F-48499F477488}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5CA5309A-64D2-33C1-AD4D-2C4EFCEA5629}</UniqueIdentifier>
+      <UniqueIdentifier>{0A98CE41-BFC5-3037-8E6A-FCCFC5CA2A24}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\ddgi">
-      <UniqueIdentifier>{9393B304-629D-38BC-97DC-C4EE2EBF8B48}</UniqueIdentifier>
+      <UniqueIdentifier>{027B89B0-C772-3D95-9A7A-FA91B304058D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\ddgi\gfx">
-      <UniqueIdentifier>{1951C865-7A95-3053-AE4A-1197203E7BED}</UniqueIdentifier>
+      <UniqueIdentifier>{AEEBE791-B1EE-397F-BDF1-3F30FED8FDFD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

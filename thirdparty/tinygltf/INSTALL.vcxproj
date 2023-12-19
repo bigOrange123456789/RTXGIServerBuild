@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{485A4F4C-184E-3056-B7A9-D83ED598B79E}</ProjectGuid>
+    <ProjectGuid>{FEC88F92-1365-33E0-B541-F5D5CBBFDDFD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -125,7 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\CMakeFiles\2f235c585aedb7dc7328402ec31dca40\INSTALL_force.rule">
+    <CustomBuild Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\CMakeFiles\9736862645c65e9f0fda7982c9fb5140\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -137,7 +137,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\thirdparty\tinygltf\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\thirdparty\tinygltf\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
@@ -151,7 +151,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\thirdparty\tinygltf\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\thirdparty\tinygltf\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
@@ -165,7 +165,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\thirdparty\tinygltf\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\thirdparty\tinygltf\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
@@ -179,20 +179,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\thirdparty\tinygltf\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\thirdparty\tinygltf\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\ZERO_CHECK.vcxproj">
-      <Project>{2B3CBA78-4710-32E1-8EE8-C28A179A7D02}</Project>
+    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\ZERO_CHECK.vcxproj">
+      <Project>{6F0122EB-3F82-38BD-B3D9-65E4CFB7B960}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\thirdparty\tinygltf\ALL_BUILD.vcxproj">
-      <Project>{CBE136E6-7996-330B-A536-C7FCD762E0E0}</Project>
+    <ProjectReference Include="F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\thirdparty\tinygltf\ALL_BUILD.vcxproj">
+      <Project>{F24B0634-B227-3968-A188-3619F103552A}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

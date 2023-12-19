@@ -1,4 +1,4 @@
-# Install script for directory: F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/tinygltf
+# Install script for directory: F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/thirdparty/tinygltf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,14 +34,14 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/tinygltf/json.hpp"
-    "F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/tinygltf/stb_image.h"
-    "F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/tinygltf/stb_image_write.h"
-    "F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/tinygltf/tiny_gltf.h"
+    "F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/thirdparty/tinygltf/json.hpp"
+    "F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/thirdparty/tinygltf/stb_image.h"
+    "F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/thirdparty/tinygltf/stb_image_write.h"
+    "F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/thirdparty/tinygltf/tiny_gltf.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/tinygltf/cmake/TinyGLTFConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/thirdparty/tinygltf/cmake/TinyGLTFConfig.cmake")
 endif()
 

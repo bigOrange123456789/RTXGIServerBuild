@@ -2,5 +2,5 @@
 D:/mySoftware/cmake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
 D:/mySoftware/cmake/share/cmake-3.26/Modules/FindPackageMessage.cmake
 D:/mySoftware/cmake/share/cmake-3.26/Modules/FindVulkan.cmake
-F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt
-F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/FindSDKs.cmake
+F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/rtxgi-sdk/CMakeLists.txt
+F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/rtxgi-sdk/FindSDKs.cmake

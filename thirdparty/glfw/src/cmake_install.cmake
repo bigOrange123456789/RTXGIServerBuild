@@ -1,4 +1,4 @@
-# Install script for directory: F:/gitHubRepositories/RemoteGIShare/RTXGIServer/thirdparty/glfw/src
+# Install script for directory: F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/thirdparty/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
