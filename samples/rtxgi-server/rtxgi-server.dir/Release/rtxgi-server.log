@@ -1,1 +1,187 @@
-﻿  rtxgi-server.vcxproj -> F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\bin\d3d12\Release\rtxgi-server.exe
+﻿  Building Custom Rule F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/samples/rtxgi-server/CMakeLists.txt
+  Benchmark.cpp
+  Caches.cpp
+  Configs.cpp
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Configs.cpp(629,63): warning C4305: “=”: 从“double”到“float”截断
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Configs.cpp(637,54): warning C4305: “=”: 从“double”到“float”截断
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Configs.cpp(640,53): warning C4305: “=”: 从“double”到“float”截断
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Configs.cpp(641,51): warning C4305: “=”: 从“double”到“float”截断
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Configs.cpp(642,62): warning C4305: “=”: 从“double”到“float”截断
+  Correspondence.cpp
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets/examples/helpers/AsyncFileReader.h(33,29): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets/examples/helpers/AsyncFileReader.h(62,1): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets/examples/helpers/AsyncFileReader.h(119,1): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets/examples/helpers/AsyncFileReader.h(87,19): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Correspondence.cpp(127,66): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\type_traits(1456): message : 查看对正在编译的函数 模板 实例化“auto Correspondence::BuildServerListener::<lambda_2>::operator ()<uWS::WebSocket<false,true,PerSocketData>>(_T1 *,std::basic_string_view<char,std::char_traits<char>>,uWS::OpCode) const”的引用
+          with
+          [
+              _T1=uWS::WebSocket<false,true,PerSocketData>
+          ]
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\type_traits(1677): message : 查看对正在编译的 别名 模板 实例化“std::_Decltype_invoke_nonzero<F&,uWS::WebSocket<false,true,PerSocketData>*,std::string_view,uWS::OpCode>”的引用
+          with
+          [
+              F=Correspondence::BuildServerListener::<lambda_2>
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets\src\MoveOnlyFunction.h(282): message : 查看指向正在编译的变量模板“const bool is_nothrow_invocable_r_v<void,`Correspondence::BuildServerListener'::`2'::<lambda_2> &,uWS::WebSocket<0,1,PerSocketData> *,std::basic_string_view<char,std::char_traits<char> >,enum uWS::OpCode>”的引用
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets\src\MoveOnlyFunction.h(354): message : 查看对正在编译的 别名 模板 实例化“ofats::any_detail::can_convert<ofats::any_invocable<void (uWS::WebSocket<false,true,PerSocketData> *,std::string_view,uWS::OpCode)>,F,false,R,F&,uWS::WebSocket<false,true,PerSocketData>*,std::string_view,uWS::OpCode>”的引用
+          with
+          [
+              F=Correspondence::BuildServerListener::<lambda_2>,
+              R=void
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Correspondence.cpp(127,55): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Correspondence.cpp(255,35): warning C4018: “<”: 有符号/无符号不匹配
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Correspondence.cpp(271,35): warning C4018: “<”: 有符号/无符号不匹配
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Correspondence.cpp(625,35): warning C4018: “<”: 有符号/无符号不匹配
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\type_traits(1456): message : 查看对正在编译的函数 模板 实例化“auto Correspondence::BuildClientConnect::<lambda_2>::operator ()<uWS::WebSocket<false,true,PerSocketData>>(_T1 *,std::basic_string_view<char,std::char_traits<char>>,uWS::OpCode) const”的引用
+          with
+          [
+              _T1=uWS::WebSocket<false,true,PerSocketData>
+          ]
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\type_traits(1677): message : 查看对正在编译的 别名 模板 实例化“std::_Decltype_invoke_nonzero<F&,uWS::WebSocket<false,true,PerSocketData>*,std::string_view,uWS::OpCode>”的引用
+          with
+          [
+              F=Correspondence::BuildClientConnect::<lambda_2>
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets\src\MoveOnlyFunction.h(282): message : 查看指向正在编译的变量模板“const bool is_nothrow_invocable_r_v<void,`Correspondence::BuildClientConnect'::`2'::<lambda_2> &,uWS::WebSocket<0,1,PerSocketData> *,std::basic_string_view<char,std::char_traits<char> >,enum uWS::OpCode>”的引用
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets\src\MoveOnlyFunction.h(354): message : 查看对正在编译的 别名 模板 实例化“ofats::any_detail::can_convert<ofats::any_invocable<void (uWS::WebSocket<false,true,PerSocketData> *,std::string_view,uWS::OpCode)>,F,false,R,F&,uWS::WebSocket<false,true,PerSocketData>*,std::string_view,uWS::OpCode>”的引用
+          with
+          [
+              F=Correspondence::BuildClientConnect::<lambda_2>,
+              R=void
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Correspondence.cpp(641,35): warning C4018: “<”: 有符号/无符号不匹配
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\utility(190,48): warning C4267: “初始化”: 从“size_t”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty1=unsigned int
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets\src\TopicTree.h(421): message : 查看对正在编译的函数 模板 实例化“std::pair<unsigned int,bool>::pair<unsigned __int64,bool,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=bool
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets\src\TopicTree.h(421): message : 查看对正在编译的函数 模板 实例化“std::pair<unsigned int,bool>::pair<unsigned __int64,bool,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=bool
+          ]
+  Geometry.cpp
+  ImageCapture.cpp
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\ImageCapture.cpp(39,13): warning C4101: “len”: 未引用的局部变量
+  Inputs.cpp
+  Instrumentation.cpp
+  Scenes.cpp
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\ciso646(15,22): warning C4996: '_Header_ciso646': warning STL4036: <ciso646> is removed in C++20. You can define _SILENCE_CXX20_CISO646_REMOVED_WARNING or _SILENCE_ALL_CXX20_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+  Shaders.cpp
+  Textures.cpp
+  UI.cpp
+  Window.cpp
+  base64.cpp
+  main.cpp
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets/examples/helpers/AsyncFileReader.h(33,29): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets/examples/helpers/AsyncFileReader.h(62,1): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets/examples/helpers/AsyncFileReader.h(119,1): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets/examples/helpers/AsyncFileReader.h(87,19): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\utility(190,48): warning C4267: “初始化”: 从“size_t”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty1=unsigned int
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets\src\TopicTree.h(421): message : 查看对正在编译的函数 模板 实例化“std::pair<unsigned int,bool>::pair<unsigned __int64,bool,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=bool
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\thirdparty\uwebsockets\src\TopicTree.h(421): message : 查看对正在编译的函数 模板 实例化“std::pair<unsigned int,bool>::pair<unsigned __int64,bool,0>(_Other1 &&,_Other2 &&) noexcept”的引用
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=bool
+          ]
+  Direct3D12.cpp
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\xstring(2824,53): warning C4244: “参数”: 从“wchar_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 查看对正在编译的函数 模板 实例化“void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)”的引用
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\mySoftware\VisualStudio\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 查看对正在编译的函数 模板 实例化“void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)”的引用
+          with
+          [
+              _Iter=wchar_t *
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Direct3D12.cpp(81): message : 查看对正在编译的函数 模板 实例化“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)”的引用
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\samples\rtxgi-server\src\Direct3D12.cpp(81): message : 查看对正在编译的函数 模板 实例化“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)”的引用
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  DDGI.cpp
+  Composite_D3D12.cpp
+  DDGIVisualizations_D3D12.cpp
+  DDGI_D3D12.cpp
+  正在生成代码...
+  正在编译...
+  GBuffer_D3D12.cpp
+  PathTracing_D3D12.cpp
+  RTAO_D3D12.cpp
+  UI_D3D12.cpp
+  BC.cpp
+  BC4BC5.cpp
+  BC6HBC7.cpp
+  DirectXTexCompress.cpp
+  DirectXTexConvert.cpp
+  DirectXTexD3D12.cpp
+  DirectXTexDDS.cpp
+  DirectXTexHDR.cpp
+  DirectXTexImage.cpp
+  DirectXTexMipmaps.cpp
+  DirectXTexUtil.cpp
+  DirectXTexWIC.cpp
+  BCDirectCompute.cpp
+  DirectXTexCompressGPU.cpp
+  imgui_impl_glfw.cpp
+  imgui.cpp
+  正在生成代码...
+  正在编译...
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui_impl_dx12.cpp
+  正在生成代码...
+    正在创建库 F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/samples/rtxgi-server/Release/rtxgi-server.lib 和对象 F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/samples/rtxgi-server/Release/rtxgi-server.exp
+  rtxgi-server.vcxproj -> F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\samples\bin\d3d12\Release\rtxgi-server.exe

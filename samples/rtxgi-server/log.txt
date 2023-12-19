@@ -10,5 +10,8 @@ Initializing graphics...
 	Creating resources for DDGIVolume: "Scene Volume"...done.
 Initializing graphics...done.
 Initializing user interface...done.
-Startup complete in 2814.76 milliseconds
+Startup complete in 5848.57 milliseconds
 Main loop...
+Shutting down and cleaning up...
+Shutdown complete in 142.926 milliseconds
+Done.
