@@ -1,6 +1,6 @@
-^F:\GITHUBREPOSITORIES\REMOTEGISHARE\RTXGISERVER\RTXGI-SDK\CMAKELISTS.TXT
+^F:\GITHUBREPOSITORIES\REMOTEGISHARE2\DDGISERVER2023\RTXGI-SDK\CMAKELISTS.TXT
 setlocal
-D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare/RTXGIServer -BF:/gitHubRepositories/RemoteGIShare/RTXGIServer/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/rtxgi-sdk/CMakeFiles/generate.stamp
+D:\mySoftware\cmake\bin\cmake.exe -SF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023 -BF:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build --check-stamp-file F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/rtxgi-sdk/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,5 +1,5 @@
-﻿  Building Custom Rule F:/gitHubRepositories/RemoteGIShare/RTXGIServer/rtxgi-sdk/CMakeLists.txt
+﻿  Building Custom Rule F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/rtxgi-sdk/CMakeLists.txt
   Math.cpp
   DDGIVolume.cpp
   DDGIVolume_VK.cpp
-  RTXGI-VK.vcxproj -> F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\rtxgi-sdk\lib\Release\RTXGI-VK.lib
+  RTXGI-VK.vcxproj -> F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\rtxgi-sdk\lib\Release\RTXGI-VK.lib

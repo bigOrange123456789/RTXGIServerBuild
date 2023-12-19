@@ -1,4 +1,4 @@
-# Install script for directory: F:/gitHubRepositories/RemoteGIShare/RTXGIServer/samples
+# Install script for directory: F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/samples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/gitHubRepositories/RemoteGIShare/RTXGIServer/build/samples/rtxgi-server/cmake_install.cmake")
+  include("F:/gitHubRepositories/RemoteGIShare2/DDGIServer2023/build/samples/rtxgi-server/cmake_install.cmake")
 
 endif()
 

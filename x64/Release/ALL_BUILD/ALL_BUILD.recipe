@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>F:\gitHubRepositories\RemoteGIShare\RTXGIServer\build\samples\bin\d3d12\Release\rtxgi-server.exe</FullPath>
+      <FullPath>F:\gitHubRepositories\RemoteGIShare2\DDGIServer2023\build\samples\bin\d3d12\Release\rtxgi-server.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>F:\gitHubRepositories\RTXGIServerBuild\x64\Release\ALL_BUILD</FullPath>
